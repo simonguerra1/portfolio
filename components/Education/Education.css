@@ -1,0 +1,18 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-bottom: 40px;
+  color: var(--background);
+}
+
+.education > h2,
+.education h3,
+.education h4,
+.education p {
+  color: var(--background);
+  letter-spacing: 1px;
+}

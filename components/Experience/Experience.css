@@ -1,0 +1,37 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.experience ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.experience h2 {
+  color: var(--background);
+}
+
+.experience > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#experience-ul > li {
+  gap: 10px;
+}
+
+#experience-ul > li > h3,
+#experience-ul > li > h4,
+#experience-ul > li > p {
+  color: var(--background);
+  text-align: center;
+  letter-spacing: 1px;
+}
